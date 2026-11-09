@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.so
+*.egg-info/
+build/
+dist/
+.DS_Store
+.pytest_cache/
+src/parity_code/decoders/_cython/*.c
+src/parity_code/decoders/_cython/*.cpp
+src/parity_code/decoders_compiled/_cython/*.c

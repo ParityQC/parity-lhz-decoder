@@ -1,0 +1,26 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "cython",
+    "numpy"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parity-code"
+version = "0.1.0"
+description = "Package for simulating and decoding the parity code under circuit level noise."
+authors = [{ name = "Paul Schnabl", email = "paul.schnabl@uibk.ac.at" }]
+requires-python = ">=3.10"
+dependencies = ["matplotlib>=3.10.3",
+                "networkx",
+                "numpy",
+                "pymatching==2.2.2",
+                "stim==1.15.0",]
+
+[project.optional-dependencies]
+simulations = ["pandas", "multiprocess", "scipy", "jupyter"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
