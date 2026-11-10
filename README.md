@@ -3,7 +3,7 @@
 Code and data for the numerical results of
 
 > K. Tiurev, P. Schnabl, C. Goeller, L. Stenzel, A. Messinger, M. Fellner and W. Lechner,
-> *Optimal Decoder for the Error Correcting Parity Code*,
+> *Optimal Decoder for the Error Correcting LHZ Parity Code*,
 > [arXiv:2505.05210](https://arxiv.org/abs/2505.05210).
 
 The Python package `parity_code` builds [Stim](https://github.com/quantumlib/Stim) circuits of the
@@ -144,7 +144,7 @@ If you use this code, please cite:
 
 ```bibtex
 @misc{tiurev2025optimaldecodererrorcorrecting,
-      title={Optimal Decoder for the Error Correcting Parity Code}, 
+      title={Optimal Decoder for the Error Correcting LHZ Parity Code}, 
       author={Konstantin Tiurev and Paul Schnabl and Christophe Goeller and Leo Stenzel and Anette Messinger and Michael Fellner and Wolfgang Lechner},
       year={2025},
       eprint={2505.05210},
@@ -162,3 +162,6 @@ See [LICENSE](LICENSE.txt).
 
 Paul Schnabl, Institute for Theoretical Physics, University of Innsbruck,
 paul.schnabl@uibk.ac.at
+
+Konstantin Tiurev, Parity Quantum Computing Germany GmbH, 
+k.tiurev@parityqc.com
